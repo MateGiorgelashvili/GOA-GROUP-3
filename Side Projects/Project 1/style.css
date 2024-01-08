@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.points{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 100px;
+}
+
+.click{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.click img{
+  width: 800px;
+  transition: 0.6s ease;
+}
+
+.click img:hover{
+  transform: scale(90%);
+}
+
+.click img:active{
+  transform: scale(80%);
+}
