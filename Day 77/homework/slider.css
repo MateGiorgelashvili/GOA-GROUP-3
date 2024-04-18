@@ -1,0 +1,16 @@
+.ultra-main-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.main-container{
+  width: 600px;
+  border: solid black;
+  display: flex;
+}
+
+.main-container #img{
+  width: 100%;
+}
