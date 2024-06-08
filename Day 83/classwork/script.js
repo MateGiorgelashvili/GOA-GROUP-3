@@ -8,19 +8,19 @@
 
 //foreach manul
 
-// function manualForEach(arr, func){
-//   for(let i = 0; i < arr.length; i++){
-//     func(arr[i]);
-//   }
-// }
-// const numbers = [1,2,3,4,5,6]
-// let sum = 0
+function manualForEach(arr, func){
+  for(let i = 0; i < arr.length; i++){
+    func(arr[i]);
+  }
+}
+const numberss = [1,2,3,4,5,6]
+let sum = 0
 
-// manualForEach(numbers, function(value){
-//   sum += value
-// })
+manualForEach(numbers, function(value){
+  sum += value
+})
 
-// console.log(sum);
+console.log(sum);
 
 //manualReduce გადაეცემა სამი პარამეტრი arr,func(sum, nextElement), startingValue
 
@@ -32,14 +32,14 @@ function manualReduce(arr,func,startingValue){
   return result
 }
 
-// const numbers = [1,2,3]
-// const result = manualReduce(numbers, function(result, nextElement){
-//   return result + nextElement
-// }, 3)
-// console.log(result);
+const numbers = [1,2,3]
+const resultt = manualReduce(numbers, function(result, nextElement){
+  return result + nextElement
+}, 3)
+console.log(result);
 
 const strr = "mate".split("")
 const result = manualReduce(strr, function(result,nextElement){
   return result + nextElement
-}, "lileko")
+}, "jsec6")
 console.log(result);
