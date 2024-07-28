@@ -1,0 +1,15 @@
+{
+  "name": "classwork",
+  "version": "1.0.0",
+  "description": "Parcel Project",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "Mate Giorgelashvili",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}
